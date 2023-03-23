@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  static: 
+    build: ./
+    ports: 
+      - 80:80
